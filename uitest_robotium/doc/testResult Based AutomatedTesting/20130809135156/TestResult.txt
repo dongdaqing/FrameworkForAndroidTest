@@ -1,0 +1,1015 @@
+更新abs工程目录
+更新youkutracker工程目录
+更新youkumobile工程目录
+开始打包－－－－－－－－－
+打包结束－－－－－－－－－
+Starting: Intent { cmp=com.youku.phone/.ActivityWelcome }
+
+Success
+
+	pkg: /data/local/tmp/Youku_Android_ForTest.apk
+Success
+
+2013-08-09 13:54:21	
+com.youku.phone.test.CachePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 20.968
+
+OK (1 test)
+
+
+
+2013-08-09 13:55:08	
+com.youku.phone.test.CachePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 45.124
+
+OK (1 test)
+
+
+
+2013-08-09 13:55:22	
+com.youku.phone.test.CachePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 12.627
+
+OK (1 test)
+
+
+
+2013-08-09 13:55:46	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testPlayTVVideos:
+junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:143)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:130)
+	at com.jayway.android.robotium.solo.Solo.clickOnView(Solo.java:892)
+	at com.youku.phone.test.ChannelActivityTest.testPlayTVVideos(ChannelActivityTest.java:78)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 23.242
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 13:56:18	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 31.51
+
+OK (1 test)
+
+
+
+2013-08-09 13:56:44	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testFilterTVChannel:
+junit.framework.AssertionFailedError: The text: '筛选' is not found!
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:337)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.test.ChannelActivityTest.testFilterTVChannel(ChannelActivityTest.java:92)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 23.832
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 13:57:10	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.829
+
+OK (1 test)
+
+
+
+2013-08-09 13:57:54	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 43.235
+
+OK (1 test)
+
+
+
+2013-08-09 13:58:09	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testPlayCartoonVideos:
+junit.framework.AssertionFailedError: Click can not be completed!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:84)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:156)
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:320)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:129)
+	at com.youku.phone.test.ChannelActivityTest.testPlayCartoonVideos(ChannelActivityTest.java:124)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 13.859
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 13:58:38	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 27.904
+
+OK (1 test)
+
+
+
+2013-08-09 13:59:20	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 40.561
+
+OK (1 test)
+
+
+
+2013-08-09 14:00:05	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 43.429
+
+OK (1 test)
+
+
+
+2013-08-09 14:00:47	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 41.172
+
+OK (1 test)
+
+
+
+2013-08-09 14:01:22	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 33.882
+
+OK (1 test)
+
+
+
+2013-08-09 14:01:58	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 34.356
+
+OK (1 test)
+
+
+
+2013-08-09 14:02:42	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 43.091
+
+OK (1 test)
+
+
+
+2013-08-09 14:03:14	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.807
+
+OK (1 test)
+
+
+
+2013-08-09 14:03:55	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 40.164
+
+OK (1 test)
+
+
+
+2013-08-09 14:04:37	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testPlayFunnyVideos:
+junit.framework.AssertionFailedError: 进入搞笑页超时
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:131)
+	at com.youku.phone.test.ChannelActivityTest.testPlayFunnyVideos(ChannelActivityTest.java:291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 40.719
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:05:18	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testPlayFunnyVideos:
+junit.framework.AssertionFailedError: 进入搞笑页超时
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:131)
+	at com.youku.phone.test.ChannelActivityTest.testPlayFunnyVideos(ChannelActivityTest.java:291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 40.345
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:06:00	
+com.youku.phone.test.ChannelActivityTest:
+Failure in testPlayFunnyVideos:
+junit.framework.AssertionFailedError: 进入搞笑页超时
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:131)
+	at com.youku.phone.test.ChannelActivityTest.testPlayFunnyVideos(ChannelActivityTest.java:291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 40.677
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:06:23	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 21.667
+
+OK (1 test)
+
+
+
+2013-08-09 14:07:56	
+com.youku.phone.test.ChannelActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 91.665
+
+OK (1 test)
+
+
+
+2013-08-09 14:08:08	
+com.youku.phone.test.DetailActivityTest:
+Failure in testTabOfSelectShow:
+junit.framework.AssertionFailedError: Click can not be completed!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:84)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:156)
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:320)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:129)
+	at com.youku.phone.util.Utils.enterDetailActivity(Utils.java:136)
+	at com.youku.phone.test.DetailActivityTest.testTabOfSelectShow(DetailActivityTest.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 10.624
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:08:42	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 32.501
+
+OK (1 test)
+
+
+
+2013-08-09 14:09:27	
+com.youku.phone.test.DetailActivityTest:
+Failure in testTabOfCache:
+junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:337)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.test.DetailActivityTest.testTabOfCache(DetailActivityTest.java:97)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 43.717
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:10:13	
+com.youku.phone.test.DetailActivityTest:
+Failure in testTabOfCache:
+junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:337)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.test.DetailActivityTest.testTabOfCache(DetailActivityTest.java:97)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 44.333
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:10:58	
+com.youku.phone.test.DetailActivityTest:
+Failure in testTabOfCache:
+junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:337)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.test.DetailActivityTest.testTabOfCache(DetailActivityTest.java:97)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 43.744
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:11:35	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 36.312
+
+OK (1 test)
+
+
+
+2013-08-09 14:11:47	
+com.youku.phone.test.DetailActivityTest:
+Failure in testLanguageSettingOfCacheTab:
+junit.framework.AssertionFailedError: Click can not be completed!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:84)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:156)
+	at com.jayway.android.robotium.solo.Clicker.clickOnText(Clicker.java:320)
+	at com.jayway.android.robotium.solo.Solo.clickOnText(Solo.java:946)
+	at com.youku.phone.util.Utils.enterChannelActivity(Utils.java:129)
+	at com.youku.phone.util.Utils.enterDetailActivity(Utils.java:136)
+	at com.youku.phone.test.DetailActivityTest.testLanguageSettingOfCacheTab(DetailActivityTest.java:124)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 10.536
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:12:28	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 40.107
+
+OK (1 test)
+
+
+
+2013-08-09 14:12:51	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 21.077
+
+OK (1 test)
+
+
+
+2013-08-09 14:13:13	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 20.829
+
+OK (1 test)
+
+
+
+2013-08-09 14:13:35	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 21.518
+
+OK (1 test)
+
+
+
+2013-08-09 14:14:33	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 56.23
+
+OK (1 test)
+
+
+
+2013-08-09 14:15:11	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 36.605
+
+OK (1 test)
+
+
+
+2013-08-09 14:16:41	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 89.404
+
+OK (1 test)
+
+
+
+2013-08-09 14:17:19	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 36.846
+
+OK (1 test)
+
+
+
+2013-08-09 14:18:00	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 37.42
+
+OK (1 test)
+
+
+
+2013-08-09 14:19:13	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 71.609
+
+OK (1 test)
+
+
+
+2013-08-09 14:20:22	
+com.youku.phone.test.DetailActivityTest:
+Failure in testCacheOfFullScreenlPlay:
+junit.framework.AssertionFailedError: 未成功点击下载
+	at com.youku.phone.test.DetailActivityTest.testCacheOfFullScreenlPlay(DetailActivityTest.java:368)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 67.055
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:21:27	
+com.youku.phone.test.DetailActivityTest:
+Failure in testCacheOfFullScreenlPlay:
+junit.framework.AssertionFailedError: 未成功点击下载
+	at com.youku.phone.test.DetailActivityTest.testCacheOfFullScreenlPlay(DetailActivityTest.java:368)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 63.494
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:22:32	
+com.youku.phone.test.DetailActivityTest:
+Failure in testCacheOfFullScreenlPlay:
+junit.framework.AssertionFailedError: 未成功点击下载
+	at com.youku.phone.test.DetailActivityTest.testCacheOfFullScreenlPlay(DetailActivityTest.java:368)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 63.858
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:23:53	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 79.906
+
+OK (1 test)
+
+
+
+2013-08-09 14:24:44	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 49.551
+
+OK (1 test)
+
+
+
+2013-08-09 14:25:35	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 49.893
+
+OK (1 test)
+
+
+
+2013-08-09 14:26:27	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 50.963
+
+OK (1 test)
+
+
+
+2013-08-09 14:27:24	
+com.youku.phone.test.DetailActivityTest:
+Failure in testSelectShowsOfFullScreenlPlay:
+junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:143)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:130)
+	at com.jayway.android.robotium.solo.Solo.clickOnView(Solo.java:892)
+	at com.youku.phone.test.DetailActivityTest.testSelectShowsOfFullScreenlPlay(DetailActivityTest.java:470)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 55.277
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:27:48	
+com.youku.phone.test.DetailActivityTest:
+Failure in testSelectShowsOfFullScreenlPlay:
+junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:143)
+	at com.jayway.android.robotium.solo.Clicker.clickOnScreen(Clicker.java:130)
+	at com.jayway.android.robotium.solo.Solo.clickOnView(Solo.java:892)
+	at com.youku.phone.util.Utils.enterDetailActivity(Utils.java:139)
+	at com.youku.phone.test.DetailActivityTest.testSelectShowsOfFullScreenlPlay(DetailActivityTest.java:460)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+
+Test results for InstrumentationTestRunner=.F
+Time: 22.949
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+2013-08-09 14:28:41	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 51.642
+
+OK (1 test)
+
+
+
+2013-08-09 14:29:38	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 55.301
+
+OK (1 test)
+
+
+
+2013-08-09 14:30:28	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 49.03
+
+OK (1 test)
+
+
+
+2013-08-09 14:31:17	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 48.15
+
+OK (1 test)
+
+
+
+2013-08-09 14:32:15	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 56.637
+
+OK (1 test)
+
+
+
+2013-08-09 14:33:12	
+com.youku.phone.test.DetailActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 55.525
+
+OK (1 test)
+
+
+
+2013-08-09 14:33:39	
+com.youku.phone.test.HistoryActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 26.466
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:00	
+com.youku.phone.test.HistoryActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 19.235
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:11	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 10.061
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:19	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 7.578
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:28	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 7.613
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:38	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 9.156
+
+OK (1 test)
+
+
+
+2013-08-09 14:34:48	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 9.022
+
+OK (1 test)
+
+
+
+2013-08-09 14:35:02	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 12.618
+
+OK (1 test)
+
+
+
+2013-08-09 14:35:15	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 12.186
+
+OK (1 test)
+
+
+
+2013-08-09 14:35:29	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 12.129
+
+OK (1 test)
+
+
+
+2013-08-09 14:35:42	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 12.178
+
+OK (1 test)
+
+
+
+2013-08-09 14:35:53	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 9.646
+
+OK (1 test)
+
+
+
+2013-08-09 14:36:08	
+com.youku.phone.test.HomePageActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 14.13
+
+OK (1 test)
+
+
+
+2013-08-09 14:36:33	
+com.youku.phone.test.LoginActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 23.837
+
+OK (1 test)
+
+
+
+2013-08-09 14:36:58	
+com.youku.phone.test.LoginActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.601
+
+OK (1 test)
+
+
+
+2013-08-09 14:37:26	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 26.912
+
+OK (1 test)
+
+
+
+2013-08-09 14:38:02	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 34.034
+
+OK (1 test)
+
+
+
+2013-08-09 14:38:46	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 42.961
+
+OK (1 test)
+
+
+
+2013-08-09 14:39:17	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.153
+
+OK (1 test)
+
+
+
+2013-08-09 14:39:48	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.048
+
+OK (1 test)
+
+
+
+2013-08-09 14:40:19	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.082
+
+OK (1 test)
+
+
+
+2013-08-09 14:40:50	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.139
+
+OK (1 test)
+
+
+
+2013-08-09 14:41:21	
+com.youku.phone.test.ProfileActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 30.058
+
+OK (1 test)
+
+
+
+2013-08-09 14:41:47	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.309
+
+OK (1 test)
+
+
+
+2013-08-09 14:42:13	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.739
+
+OK (1 test)
+
+
+
+2013-08-09 14:42:39	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.952
+
+OK (1 test)
+
+
+
+2013-08-09 14:43:04	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 24.696
+
+OK (1 test)
+
+
+
+2013-08-09 14:43:31	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 25.653
+
+OK (1 test)
+
+
+
+2013-08-09 14:43:43	
+com.youku.phone.test.SearchActivityTest:.
+Test results for InstrumentationTestRunner=.
+Time: 10.279
+
+OK (1 test)
+
+
+
+邮件发送成功

@@ -1,0 +1,88 @@
+Brand	Model	AndroidSystem	Density
+Google	Nexus	4.0.3	240
+ 
+Time	Module	TestCases	CaseDescription	AppVer	TestResults	DetailInfo
+2013-08-09 13:54:21	CachePageActivityTest	testCachedManagement	编辑缓存页视频	v3.1	Passed	
+2013-08-09 13:55:08	CachePageActivityTest	testPlayInCachePage	播放缓存的视频	v3.1	Passed	
+2013-08-09 13:55:22	CachePageActivityTest	testCacheTotalNum	输出缓存视频的个数	v3.1	Passed	
+2013-08-09 13:55:46	ChannelActivityTest	testPlayTVVideos	播放电视剧频道视频	v3.1	Failed	junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+2013-08-09 13:56:18	ChannelActivityTest	testPlayTVVideos	播放电视剧频道视频	v3.1	Passed	
+2013-08-09 13:56:44	ChannelActivityTest	testFilterTVChannel	频道页的“筛选”	v3.1	Failed	junit.framework.AssertionFailedError: The text: '筛选' is not found!
+2013-08-09 13:57:10	ChannelActivityTest	testFilterTVChannel	频道页的“筛选”	v3.1	Passed	
+2013-08-09 13:57:54	ChannelActivityTest	testPlayMoiveVideos	播放电影频道视频	v3.1	Passed	
+2013-08-09 13:58:09	ChannelActivityTest	testPlayCartoonVideos	播放动漫频道视频	v3.1	Failed	junit.framework.AssertionFailedError: Click can not be completed!
+2013-08-09 13:58:38	ChannelActivityTest	testPlayCartoonVideos	播放动漫频道视频	v3.1	Passed	
+2013-08-09 13:59:20	ChannelActivityTest	testPlayVarietyShowVideos	播放综艺频道视频	v3.1	Passed	
+2013-08-09 14:00:05	ChannelActivityTest	testPlayMusicVideos	播放音乐频道视频	v3.1	Passed	
+2013-08-09 14:00:47	ChannelActivityTest	testPlayEntertainmentVideos	播放娱乐频道视频	v3.1	Passed	
+2013-08-09 14:01:22	ChannelActivityTest	testPlayRanklistVideos	点击排行榜并播放	v3.1	Passed	
+2013-08-09 14:01:58	ChannelActivityTest	testPlayAllVideos	点击全部视频并播放	v3.1	Passed	
+2013-08-09 14:02:42	ChannelActivityTest	testPlayOriginalVideos	播放原创频道视频	v3.1	Passed	
+2013-08-09 14:03:14	ChannelActivityTest	testPlayInformationVideos	播放资讯频道视频	v3.1	Passed	
+2013-08-09 14:03:55	ChannelActivityTest	testPlayDocumentaryVideos	播放记录片频道视频	v3.1	Passed	
+2013-08-09 14:04:37	ChannelActivityTest	testPlayFunnyVideos	播放搞笑频道视频	v3.1	Failed	junit.framework.AssertionFailedError: 进入搞笑页超时
+2013-08-09 14:05:18	ChannelActivityTest	testPlayFunnyVideos	播放搞笑频道视频	v3.1	Failed	junit.framework.AssertionFailedError: 进入搞笑页超时
+2013-08-09 14:06:00	ChannelActivityTest	testPlayFunnyVideos	播放搞笑频道视频	v3.1	Failed	junit.framework.AssertionFailedError: 进入搞笑页超时
+2013-08-09 14:06:23	ChannelActivityTest	testFilterChannel	不同频道的切换	v3.1	Passed	
+2013-08-09 14:07:56	ChannelActivityTest	testPlayChannelVideo	播放不同视频，并实现在该频道页的滑动（可设定滑动次数）	v3.1	Passed	
+2013-08-09 14:08:08	DetailActivityTest	testTabOfSelectShow	详情页："选集"Tab,并播放选集下的一集视频	v3.1	Failed	junit.framework.AssertionFailedError: Click can not be completed!
+2013-08-09 14:08:42	DetailActivityTest	testTabOfSelectShow	详情页："选集"Tab,并播放选集下的一集视频	v3.1	Passed	
+2013-08-09 14:09:27	DetailActivityTest	testTabOfCache	详情页："缓存"Tab	v3.1	Failed	junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+2013-08-09 14:10:13	DetailActivityTest	testTabOfCache	详情页："缓存"Tab	v3.1	Failed	junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+2013-08-09 14:10:58	DetailActivityTest	testTabOfCache	详情页："缓存"Tab	v3.1	Failed	junit.framework.AssertionFailedError: The text: '开始缓存' is not found!
+2013-08-09 14:11:35	DetailActivityTest	testImageSettingOfCacheTab	详情页："缓存"Tab下的画质切换	v3.1	Passed	
+2013-08-09 14:11:47	DetailActivityTest	testLanguageSettingOfCacheTab	详情页："缓存"Tab下的切换语言	v3.1	Failed	junit.framework.AssertionFailedError: Click can not be completed!
+2013-08-09 14:12:28	DetailActivityTest	testLanguageSettingOfCacheTab	详情页："缓存"Tab下的切换语言	v3.1	Passed	
+2013-08-09 14:12:51	DetailActivityTest	testTabOfDetails	详情页："详情"Tab	v3.1	Passed	
+2013-08-09 14:13:13	DetailActivityTest	testTabOfComments	详情页："评论"Tab	v3.1	Passed	
+2013-08-09 14:13:35	DetailActivityTest	testTabOfPlot	详情页："剧情"Tab	v3.1	Passed	
+2013-08-09 14:14:33	DetailActivityTest	testplayControlOfInteractive	互动区：播放控制Image	v3.1	Passed	
+2013-08-09 14:15:11	DetailActivityTest	testCacheOfInteractive	互动区：下载Image	v3.1	Passed	
+2013-08-09 14:16:41	DetailActivityTest	testMoreOfInteractive	互动区：“更多”	v3.1	Passed	
+2013-08-09 14:17:19	DetailActivityTest	testPlayProgressOfInteractive	互动区：播放进度条	v3.1	Passed	
+2013-08-09 14:18:00	DetailActivityTest	testT0FullScreenOfInteractive	互动区：小屏切换全屏	v3.1	Passed	
+2013-08-09 14:19:13	DetailActivityTest	testSettingOfFullScreenlPlay	全屏播放：设置	v3.1	Passed	
+2013-08-09 14:20:22	DetailActivityTest	testCacheOfFullScreenlPlay	全屏播放：下载Image	v3.1	Failed	junit.framework.AssertionFailedError: 未成功点击下载
+2013-08-09 14:21:27	DetailActivityTest	testCacheOfFullScreenlPlay	全屏播放：下载Image	v3.1	Failed	junit.framework.AssertionFailedError: 未成功点击下载
+2013-08-09 14:22:32	DetailActivityTest	testCacheOfFullScreenlPlay	全屏播放：下载Image	v3.1	Failed	junit.framework.AssertionFailedError: 未成功点击下载
+2013-08-09 14:23:53	DetailActivityTest	testMoreOfFullScreenlPlay	全屏播放：“更多”	v3.1	Passed	
+2013-08-09 14:24:44	DetailActivityTest	testPlayProgressOfFullScreenlPlay	全屏播放：播放进度条	v3.1	Passed	
+2013-08-09 14:25:35	DetailActivityTest	testVolumnProgressOfFullScreenlPlay	全屏播放：音量	v3.1	Passed	
+2013-08-09 14:26:27	DetailActivityTest	testPlayControlOfFullScreenlPlay	全屏播放：播放、暂停控制	v3.1	Passed	
+2013-08-09 14:27:24	DetailActivityTest	testSelectShowsOfFullScreenlPlay	全屏播放：选集设置	v3.1	Failed	junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+2013-08-09 14:27:48	DetailActivityTest	testSelectShowsOfFullScreenlPlay	全屏播放：选集设置	v3.1	Failed	junit.framework.AssertionFailedError: View is null and can therefore not be clicked!
+2013-08-09 14:28:41	DetailActivityTest	testSelectShowsOfFullScreenlPlay	全屏播放：选集设置	v3.1	Passed	
+2013-08-09 14:29:38	DetailActivityTest	testImageSettingOfFullScreenlPlay	全屏播放：切换画质	v3.1	Passed	
+2013-08-09 14:30:28	DetailActivityTest	testFullToSmallOfFullScreenlPlay	全屏切换小屏	v3.1	Passed	
+2013-08-09 14:31:17	DetailActivityTest	testLocalPlayOfSetting	本地视频的连播设置	v3.1	Passed	
+2013-08-09 14:32:15	DetailActivityTest	testLocalPlayOfPlayProgress	本地播放器的播放进度	v3.1	Passed	
+2013-08-09 14:33:12	DetailActivityTest	testLocalPlayOfVolumnProgress	本地播放器的音量控制	v3.1	Passed	
+2013-08-09 14:33:39	HistoryActivityTest	testPlayHistoryVideo	点击播放历史页面的视频	v3.1	Passed	
+2013-08-09 14:34:00	HistoryActivityTest	testManageHistory	删除播放历史	v3.1	Passed	
+2013-08-09 14:34:11	HomePageActivityTest	testScroll	首页滑动	v3.1	Passed	
+2013-08-09 14:34:19	HomePageActivityTest	testEnterHistory	点击播放历史icon	v3.1	Passed	
+2013-08-09 14:34:28	HomePageActivityTest	testEnterCache	点击缓存icon	v3.1	Passed	
+2013-08-09 14:34:38	HomePageActivityTest	testRr	聚合工具栏	v3.1	Passed	
+2013-08-09 14:34:48	HomePageActivityTest	testEnterLogin	聚合工具栏-登录	v3.1	Passed	
+2013-08-09 14:35:02	HomePageActivityTest	testEnterScoreForMe	聚合工具栏-为我评分	v3.1	Passed	
+2013-08-09 14:35:15	HomePageActivityTest	testEnterWonderfullApplication	聚合工具栏—精彩应用	v3.1	Passed	
+2013-08-09 14:35:29	HomePageActivityTest	testEnterFeedback	聚合工具栏-反馈帮助	v3.1	Passed	
+2013-08-09 14:35:42	HomePageActivityTest	testEnterSurvey	聚合工具栏-问卷调查	v3.1	Passed	
+2013-08-09 14:35:53	HomePageActivityTest	testRecommendForMe	首页点击为我推荐	v3.1	Passed	
+2013-08-09 14:36:08	HomePageActivityTest	testLatestHistoryPlay	点击首页的最近播放历史	v3.1	Passed	
+2013-08-09 14:36:33	LoginActivityTest	testLogin	登录	v3.1	Passed	
+2013-08-09 14:36:58	LoginActivityTest	testRegister	注册	v3.1	Passed	
+2013-08-09 14:37:26	ProfileActivityTest	testClickProfileImage	个人中心点击头像	v3.1	Passed	
+2013-08-09 14:38:02	ProfileActivityTest	testClickLatestHistory	个人中心点击最近播放历史	v3.1	Passed	
+2013-08-09 14:38:46	ProfileActivityTest	testSetting	个人中心设置	v3.1	Passed	
+2013-08-09 14:39:17	ProfileActivityTest	testEnterCache	个人中心缓存	v3.1	Passed	
+2013-08-09 14:39:48	ProfileActivityTest	testEnterHistory	个人中心进入播放历史	v3.1	Passed	
+2013-08-09 14:40:19	ProfileActivityTest	testWonderfulApplication	个人中心点击精彩应用	v3.1	Passed	
+2013-08-09 14:40:50	ProfileActivityTest	testAddFavourite	个人中心进入收藏	v3.1	Passed	
+2013-08-09 14:41:21	ProfileActivityTest	testUpload	个人中心进入上传	v3.1	Passed	
+2013-08-09 14:41:47	SearchActivityTest	testEnterSearch	搜索	v3.1	Passed	
+2013-08-09 14:42:13	SearchActivityTest	testEnterchineseAndEnglishSearch	输入中英文搜索	v3.1	Passed	
+2013-08-09 14:42:39	SearchActivityTest	testEnterlotWordsSearch	输入大量文字搜索	v3.1	Passed	
+2013-08-09 14:43:04	SearchActivityTest	testEnternoExistKeySearch	输入不存在的关键字搜索	v3.1	Passed	
+2013-08-09 14:43:31	SearchActivityTest	testEnterSymbolAndNumSearch	输入符号和数字搜索	v3.1	Passed	
+2013-08-09 14:43:43	SearchActivityTest	testEnterSpaceSearch	输入空格搜索	v3.1	Passed	
