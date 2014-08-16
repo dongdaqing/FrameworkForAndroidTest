@@ -1,0 +1,954 @@
+Buildfile: /Users/dongdaqing/SVN/YoukuMobileTest/AutomatedTesting/Android/UIAutomator/YoukuUIAutomatorTest/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for YoukuMobileTest...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to /Users/dongdaqing/SVN/YoukuMobileTest/AutomatedTesting/Android/UIAutomator/YoukuUIAutomatorTest/bin/classes
+
+-post-compile:
+
+-dex:
+      [dex] input: /Users/dongdaqing/SVN/YoukuMobileTest/AutomatedTesting/Android/UIAutomator/YoukuUIAutomatorTest/bin/classes
+      [dex] Found modified input file
+      [dex] Converting compiled files and external libraries into /Users/dongdaqing/SVN/YoukuMobileTest/AutomatedTesting/Android/UIAutomator/YoukuUIAutomatorTest/bin/classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: /Users/dongdaqing/SVN/YoukuMobileTest/AutomatedTesting/Android/UIAutomator/YoukuUIAutomatorTest/bin/YoukuMobileTest.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+
+
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+com.youku.phone.player.PlayVideosTest:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayAdvertisementChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：广告频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放广告频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayAdvertisementChannel(PlayVideosTest.java:365)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayAdvertisementChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayAutomobileChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：汽车频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放汽车频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayAutomobileChannel(PlayVideosTest.java:285)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayAutomobileChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayCartoonChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：动漫频道视频......
+当前频道页可见视频：9个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放动漫频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayCartoonChannel(PlayVideosTest.java:157)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayCartoonChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayDocumentaryChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：纪录片频道视频......
+当前频道页可见视频：9个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放纪录片频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayDocumentaryChannel(PlayVideosTest.java:205)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayDocumentaryChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayEducationChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：教育频道视频......
+当前频道页可见视频：9个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放教育频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayEducationChannel(PlayVideosTest.java:189)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayEducationChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayEntertainmentChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：娱乐频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放娱乐频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayEntertainmentChannel(PlayVideosTest.java:237)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayEntertainmentChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayFashionChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：时尚频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放时尚频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayFashionChannel(PlayVideosTest.java:333)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayFashionChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayInformationChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：资讯频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放资讯频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayInformationChannel(PlayVideosTest.java:221)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayInformationChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayLifeChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：生活频道视频......
+游戏弹窗！
+播放生活频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=频道分类]
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+	at com.youku.phone.common.ManageApp.enterChannelCategory(ManageApp.java:39)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:96)
+	at com.youku.phone.player.PlayVideosTest.testPlayLifeChannel(PlayVideosTest.java:317)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayLifeChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayMovieChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：电影频道视频......
+当前频道页可见视频：9个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放电影频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayMovieChannel(PlayVideosTest.java:125)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayMovieChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayMusicChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：音乐频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放音乐频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayMusicChannel(PlayVideosTest.java:173)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayMusicChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayOriginalChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：原创频道视频......
+游戏弹窗！
+播放原创频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=全部]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.common.ManageApp.enterChannelCategory(ManageApp.java:54)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:96)
+	at com.youku.phone.player.PlayVideosTest.testPlayOriginalChannel(PlayVideosTest.java:253)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayOriginalChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayScienceChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：科技频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放科技频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayScienceChannel(PlayVideosTest.java:301)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayScienceChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlaySportsChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：体育频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放体育频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlaySportsChannel(PlayVideosTest.java:269)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlaySportsChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayTVChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：电视剧频道视频......
+当前频道页可见视频：9个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+视频播放计数器：8
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放电视剧频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayTVChannel(PlayVideosTest.java:109)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayTVChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayTravelChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：旅游频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+播放旅游频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=1], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayTravelChannel(PlayVideosTest.java:349)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayTravelChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayVarietyChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS_CODE: 1
+开始播放：综艺频道视频......
+当前频道页可见视频：8个
+开始播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+视频播放计数器：3
+视频播放计数器：4
+视频播放计数器：5
+视频播放计数器：6
+视频播放计数器：7
+向下滑动......
+继续播放视频......
+视频播放计数器：0
+视频播放计数器：1
+视频播放计数器：2
+播放综艺频道视频出错！
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CHILD=UiSelector[INDEX=2], RESOURCE_ID=com.youku.phone:id/gridview]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.youku.phone.player.PlayVideosTest.playChannelVideos(PlayVideosTest.java:77)
+	at com.youku.phone.player.PlayVideosTest.enterChannelAndPlayVideos(PlayVideosTest.java:98)
+	at com.youku.phone.player.PlayVideosTest.testPlayVarietyChannel(PlayVideosTest.java:141)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:301)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=17
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testPlayVarietyChannel
+INSTRUMENTATION_STATUS: class=com.youku.phone.player.PlayVideosTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.................
+Time: 3689.182
+
+OK (17 tests)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
